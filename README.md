@@ -62,11 +62,14 @@ python Simple_Network_Packet_Analyser.py
 - Python programming with Scapy
 - Introduction to network traffic analysis
 
+
 ## Security and Privacy Notice
 
 Use this tool only on networks and devices you own or have explicit permission to monitor.
 
-The current implementation logs packet payload bytes. Payloads may contain sensitive information. Avoid capturing or sharing private traffic. This is an educational tool, not a production-grade network monitoring solution.
+The program displays and logs source and destination IP addresses, which may be sensitive network metadata. Packet payload logging has been removed to reduce the risk of exposing private information.
+
+This is an educational tool, not a production-grade network monitoring solution.
 
 ## Project Type
 
